@@ -1,0 +1,7 @@
+python-binance
+pandas
+numpy
+scipy
+python-telegram-bot
+apscheduler
+python-dotenv
