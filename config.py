@@ -16,7 +16,7 @@ TELEGRAM_ALLOWED_USERS = os.environ.get("TELEGRAM_ALLOWED_USERS", "").split(",")
 
 # === 排程 ===
 SCHEDULE_HOUR = 8
-SCHEDULE_MINUTE = 0
+SCHEDULE_MINUTE = 1
 TIMEZONE = "Asia/Taipei"
 RUN_ON_STARTUP = False  # 啟動時是否立即執行一次
 
