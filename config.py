@@ -15,7 +15,7 @@ TELEGRAM_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID", "")
 TELEGRAM_ALLOWED_USERS = os.environ.get("TELEGRAM_ALLOWED_USERS", "").split(",") if os.environ.get("TELEGRAM_ALLOWED_USERS") else []
 
 # === 排程 ===
-SCHEDULE_HOUR = 9
+SCHEDULE_HOUR = 8
 SCHEDULE_MINUTE = 0
 TIMEZONE = "Asia/Taipei"
 RUN_ON_STARTUP = False  # 啟動時是否立即執行一次
